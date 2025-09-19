@@ -1,0 +1,20 @@
+[flake8]
+ignore = E203,W503,W191,E721
+exclude =
+    migrations,
+    playground,
+    scripts,
+    tests,
+    unit_tests,
+    .git,
+    .gitignore,
+    *.pot,
+    *.py[co],
+    __pycache__,
+    bin,
+    lib,
+    .env,
+    settings_default.py,
+    urls_default.py,
+    apps.py,
+max-line-length = 120
